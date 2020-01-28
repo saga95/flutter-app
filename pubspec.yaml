@@ -1,0 +1,87 @@
+name: gridview_test
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_map:
+  url_launcher:
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_staggered_grid_view:
+  cloud_firestore:
+  google_sign_in:
+  firebase_storage:
+  firebase_database:
+  image_picker:
+  fluttertoast:
+  flutter_search_bar:
+  firebase_auth:
+  stripe_api:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/Event_0.jpg
+    - assets/images/Event_1.jpg
+    - assets/images/Event_2.jpg
+    - assets/images/Event_3.jpg
+    - assets/images/Event_4.jpg
+    - assets/images/Event_5.jpg
+    - assets/images/Event_6.jpg
+    - assets/images/Event_7.jpg
+    - assets/images/Event_8.jpg
+    - assets/images/Event_9.jpg
+    - assets/images/Event_10.png
+    - assets/images/Event_11.jpg
+    - assets/images/Event_12.jpg
+    - assets/images/wallpaper1.jpg
+    - assets/images/imgc1.jpg
+    - assets/images/imgc2.jpg
+    - assets/images/imgc3.jpg
+    - assets/images/imgc4.jpg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CroissantOne
+      fonts:
+        - asset: fonts/CroissantOne-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
